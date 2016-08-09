@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!-- saved from url=(0041)http://box.anchorfree.net/insert/ncr.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+	<title>ncr</title>
+</head>
+<body>
+	<div id="ncrContainer"></div>
+	<script>
+		function getCookie(name) {
+			var matches = document.cookie.match(new RegExp(
+					"(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"
+			));
+			return matches ? decodeURIComponent(matches[1]) : undefined;
+		}
+		function setCookie(name, value){
+			var date = new Date;
+			date.setDate( date.getDate() + 1 );
+			document.cookie=name+"="+value+"; path=/; expires="+date.toUTCString();
+		}
+		var is_showed = getCookie('ncr');
+		if(typeof (is_showed) == 'undefined'){
+			setCookie('ncr', 'showed');
+			document.getElementById('ncrContainer').innerHTML = '<iframe src="https://www.google.com/ncr" style="width: 0px; height: 0px; display: none;"></iframe>';
+		}
+	</script>
+
+</body></html>

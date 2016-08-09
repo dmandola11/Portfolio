@@ -1,0 +1,1 @@
+crtg_content = ''; (function(){document.cookie = 'crtg_rta=' + escape(crtg_content) + '; path=/; expires=Sat, 03 Sep 2016 21:16:31 GMT; domain=lipsum.com';})();
