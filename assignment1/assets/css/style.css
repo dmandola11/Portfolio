@@ -206,6 +206,12 @@ footer {
 	.header{
 		width: 980px;
 	}
+	.h2main{
+		margin: 10px 40px;
+	    position: relative;
+	    left: -1px;
+	    padding: 19px 0px;
+	}
 	h1 {
 		left: 62px;
 	}
@@ -214,9 +220,11 @@ footer {
 	}
 	p {
 		float: left;
+		margin-bottom: 12px;
 	}
 	.portfolio {
-		margin-left: 115px;
+		margin-left: 29px;
+    	width: 86%;
 	}
 	.main {
 		width: 550px;
@@ -235,6 +243,21 @@ footer {
 	}
 	input, textarea {
 		width: 510px;
+		padding: 5px;
+	}
+	.pmg{
+		margin-left: 47px;
+    	width: 140%;
+	}
+	.portfo{
+		margin: 31px;
+	}
+	.h3{
+		padding: 7px 50px;
+    	left: 47px;
+	}
+	.submit{
+		padding: 14px;
 	}
 }
 
@@ -307,24 +330,26 @@ footer {
 
 	.portfolio {
     	position: relative;
-    	left: -1px;
-    	margin-left: inherit;
+    	width: 222px;
+    	margin-left: 116px;
 	}
 	.image{
 		position: relative;
-	    margin: 38px;
 	    display: inline-block;
-	    width: 250px;
-	    padding: 4px;
-	    left: -44px;
-	    margin-top: -21px;
-	    top: 42px;
+	    width: 220px;
+	    margin-top: 4px;
+	    margin-right: 118px;
+	    margin-left: -49px;
+	    
 	}
 	.h3{
-		padding: 5px 25px;
+		padding: 5px 22px;
 	}
 	.pmg{
 		width: 120%
+	}
+	.portfo{
+		margin-left: 76px;
 	}
 
 	.contact {
@@ -337,8 +362,11 @@ footer {
 	}
 
 	input, textarea {
-		width: 683px;
-		border: 
+		width: 670px;
+		padding: 5px;
+	}
+	.submit{
+		padding: 15px;
 	}
 
 }
@@ -349,7 +377,7 @@ footer {
 	}
 	
 	h1{
-		left: -65px;
+		left: -52px;
 	}
 	.header{
 		display: block;
@@ -359,19 +387,19 @@ footer {
 		padding-right: 24px;
 	}
 	.portfolio{
-	    margin-left: 54px;
-    	width: 555px;
+	    margin-left: 155px;
+    	width: 500px;
 	}
 	.par{
 		float: left;
     	position: relative;
-    	left: 119px;
+    	left: 145px;
     	width: 567px;
     	margin-top: 16px;
     	margin-bottom: 7px;
 	}
 	.navbar{
-		left: 104px;
+		left: 118px;
 	}
 
 	li a {
@@ -389,12 +417,12 @@ footer {
     	left: 2px;
 	}
 	footer{
-		width: 580px;
-    	margin-left: 12px;
+		width: 640px;
+    	margin-left: -2px;
 	}
 	.portmain{
 		width: 620px;
-    	margin-left: -48px;
+    	margin-left: 19px;
 	}
 	.image{
 		width: 550px;
@@ -404,12 +432,18 @@ footer {
 	}
 	.pmg{
 		width: 100%;
+		position: relative;
+    	margin-left: 110px;
+	}
+	.portfo{
+
 	}
 	.h3{
-		margin: 31px 4px;
+		margin: 31px 67px;
+		padding: 8px 0px 8px;
 	}
 	.h2main{
-		margin: 13px 5px;
+		margin: 13px 10px;
     	width: 559px;
     	left: 3px;
 	}
@@ -422,6 +456,7 @@ footer {
 	}
 	input, textarea{
 		width: 555px;
+		padding: 7px;
 	}
 	.submit {
 	    background-color: #4aaaa5;
