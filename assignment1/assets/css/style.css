@@ -126,6 +126,7 @@ li:last-child {
 input,textarea { 
 	margin: 2px 0px 15px 1px;
 	width: 600px;
+	border: 1px solid #cccccc;
 }
 
 .submit {
@@ -201,8 +202,10 @@ footer {
 	border-top: 4px solid #4aaaa5;
 }
 
-@media screen and (max-width: 980px) {
-	
+@media screen and (max-width: 980px){
+	.header{
+		width: 980px;
+	}
 	h1 {
 		left: 62px;
 	}
@@ -240,28 +243,31 @@ footer {
 	.wrapper{
 		width: 768px;
 	}
+	.header{
+		width: 768px;
+	}
 	h1 {
 		left: 24px;
 	}
 
 	.navbar {
-		left: 310px;
+		left: 314px;
 	}
 	
 	.main {
 	width: 725px;
     margin: 10px 0px 10px 25px;
+    position: relative;
 	}
 
 	.h2main {
 	margin: 10px 20px;
     left: 3px;
 	}
-	
-	p {
-	float: none;
+	.par{
+		float: none;
+		margin: initial;
 	}
-
 	.container{
 	padding: 10px 10px 60px 5px;
     margin-left: -109px;
@@ -270,7 +276,9 @@ footer {
 	aside {
 		width: 725px;
 		float: left;
-		margin-left: 25px;
+		margin-left: -10px;
+		position: relative;
+    	left: 37px;
 	}
 	.h2side {
 		text-align: left;
@@ -283,16 +291,40 @@ footer {
 	}
 	footer {
 		width: 725px;
-		margin-left: 2px;
+	    position: relative;
+	    margin-left: 25px;
+	    padding: 1px;
+	    padding-bottom: 14px;
+	    padding-top: 7px;
 	}
 
 	.portmain {
-		width: 681px;
+		width: 720px;
     	margin-left: 36px;
+    	position: relative;
+    	left: -11px;
 	}
 
 	.portfolio {
-		margin-left: 125px;
+    	position: relative;
+    	left: -1px;
+    	margin-left: inherit;
+	}
+	.image{
+		position: relative;
+	    margin: 38px;
+	    display: inline-block;
+	    width: 250px;
+	    padding: 4px;
+	    left: -44px;
+	    margin-top: -21px;
+	    top: 42px;
+	}
+	.h3{
+		padding: 5px 25px;
+	}
+	.pmg{
+		width: 120%
 	}
 
 	.contact {
@@ -306,6 +338,7 @@ footer {
 
 	input, textarea {
 		width: 683px;
+		border: 
 	}
 
 }
@@ -314,6 +347,10 @@ footer {
 	.wrapper{
 		width: 640px;
 	}
+	
+	h1{
+		left: -65px;
+	}
 	.header{
 		display: block;
 		float: none;
@@ -321,8 +358,20 @@ footer {
 		margin-left: -24px;
 		padding-right: 24px;
 	}
+	.portfolio{
+	    margin-left: 54px;
+    	width: 555px;
+	}
+	.par{
+		float: left;
+    	position: relative;
+    	left: 119px;
+    	width: 567px;
+    	margin-top: 16px;
+    	margin-bottom: 7px;
+	}
 	.navbar{
-		left: 140px;
+		left: 104px;
 	}
 
 	li a {
@@ -330,19 +379,22 @@ footer {
 	}
 	.main{
 		width: 620px;
-		margin: 20px 0px 10px 10px;
+    	margin: 20px 0px 10px 10px;
+    	position: relative;
+    	left: 0px;
 	}
 	aside{
 		width: 620px;
-		margin: 15px 10px 10px 10px;
+    	margin: 15px 10px 10px 10px;
+    	left: 2px;
 	}
 	footer{
-		width: 579px;
-    	margin-left: 10px;
+		width: 580px;
+    	margin-left: 12px;
 	}
 	.portmain{
 		width: 620px;
-    	margin-left: 10px;
+    	margin-left: -48px;
 	}
 	.image{
 		width: 550px;
@@ -351,32 +403,35 @@ footer {
 		left: -110px;
 	}
 	.pmg{
-		width: 550px;
+		width: 100%;
+	}
+	.h3{
+		margin: 31px 4px;
 	}
 	.h2main{
 		margin: 13px 5px;
-    	width: 600px;
+    	width: 559px;
     	left: 3px;
 	}
 	.contact{
-		width: 620px;
-		margin-left: 8px;
+		width: 617px;
+    	margin-left: 13px;
 	}
 	.form{
 		margin-left: -4px;
 	}
 	input, textarea{
-		width: 590px;
+		width: 555px;
 	}
 	.submit {
-    background-color: #4aaaa5;
-    width: 120px;
-    color: white;
-    border: none;
-    padding: 14px;
-    margin-left: 3px;
-    cursor: pointer;
-    font-size: 16px;
-}
+	    background-color: #4aaaa5;
+	    width: 120px;
+	    color: white;
+	    border: none;
+	    padding: 14px;
+	    margin-left: 3px;
+	    cursor: pointer;
+	    font-size: 16px;
+	}
 }
 
