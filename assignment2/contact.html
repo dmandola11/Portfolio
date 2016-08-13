@@ -2,39 +2,61 @@
 <html>
 <head>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/superhero/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 <title></title>
 </head>
 <body>
-<div class="wrap">
-<form class="form-horizontal">
-  <fieldset>
-    <legend>Contact Me</legend>
-    <div class="form-group">
-      <label for="inputEmail" class="col-lg-2 control-label">Name</label>
-      <div class="col-lg-10">
-        <input type="text" class="form-control" id="inputEmail" placeholder="Name">
+<div class="wrapper">
+  <nav class="navbar navbar-default">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <h4>DAMIAN MANDOLA </h4>
       </div>
-    </div>
-    <div class="form-group">
-      <label for="inputPassword" class="col-lg-2 control-label">Email</label>
-      <div class="col-lg-10">
-        <input type="Email" class="form-control" id="inputPassword" placeholder="Email">
-        <div class="checkbox">
-          <label>
-            <input type="checkbox"> Checkbox
-          </label>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a></li>
+          <li class="active"><a href="contact.html">Contact</a></li>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="index.html">About</a></li>
+        </ul>
+      </div>
+  </nav>
+</div>
+<div class="wrap">
+  <form class="form-horizontal">
+    <fieldset>
+      <legend>Contact Me</legend>
+      <div class="form-group">
+        <label for="inputEmail" class="col-lg-2 control-label">Name</label>
+        <div class="col-lg-10">
+          <input type="text" class="form-control" id="inputEmail" placeholder="Name">
         </div>
       </div>
-    </div>
-    <div class="form-group">
-      <label for="textArea" class="col-lg-2 control-label">Textarea</label>
-      <div class="col-lg-10">
-        <textarea class="form-control" rows="3" id="textArea"></textarea>
-        <span class="help-block">A longer block of help text that breaks onto a new line and may extend beyond one line.</span>
+      <div class="form-group">
+        <label for="inputPassword" class="col-lg-2 control-label">Email</label>
+        <div class="col-lg-10">
+          <input type="Email" class="form-control" id="inputPassword" placeholder="Email">
+        </div>
       </div>
-    </div>
-   </fieldset>
-</form>
-</div>
+      <div class="form-group">
+        <label for="textArea" class="col-lg-2 control-label">Textarea</label>
+        <div class="col-lg-10">
+          <textarea class="form-control" rows="3" id="textArea"></textarea>
+        </div>
+        <a href="#" class="btn btn-primary">Submit</a>
+      </div>
+     </fieldset>
+  </form>
+  </div>
+  <footer>
+    <h4>&#169;Copyright 2016 Damian Mandola</h4>
+</footer>
 </body>
 </html>

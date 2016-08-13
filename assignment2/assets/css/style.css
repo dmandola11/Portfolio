@@ -1,0 +1,21 @@
+.wrapper{
+	margin: 0 auto;
+	width: 960px;
+}
+.aboutimg{
+	width: 30%;
+	position: relative;
+	margin-left: 5px;
+}
+main{
+	margin: 50px;
+}
+form{
+	margin: 70px;
+}
+.portmain{
+	margin: 30px;
+}
+footer{
+	text-align: center;
+}
